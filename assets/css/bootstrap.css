@@ -737,6 +737,12 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.containerModified {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -2005,6 +2011,7 @@ select[multiple].input-lg {
   border: 1px solid transparent;
   border-radius: 4px;
 }
+
 .btn:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -2316,6 +2323,7 @@ fieldset[disabled] .btn-link:focus {
   font-size: 24px;
   line-height: 1.33;
   border-radius: 8px;
+  margin-top:20px;
 }
 .btn-lg {
   padding: 10px 16px;
