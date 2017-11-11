@@ -24,19 +24,17 @@
     <div class="navbar navbar-inverse navbar-fixed-top scrollclass" >
         <div class="container">
             <div class="navbar-header">
+                <img id="logo" src="assets/img/3Logo.png"/>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Three Circles Logo</a> <!--NOTE TO SELF: CHANGE TO DROPDOWN-->
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse">        <!--NOTE TO SELF: CHANGE TO DROPDOWN-->
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                    
-                    <li><a href="#portfolio">ANALYTICS</a></li>
-                     <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
            
@@ -64,8 +62,9 @@
         </div>
        </section>
     <!--END SECTION-->
-    <!--PORTFOLIO SECTION-->
+    <!--ANALYTICS SECTION-->
     <section id="portfolio"  >
+        
             <div class="container">
                     <div class="row text-center" >
                <div class="col-md-12">
@@ -83,27 +82,9 @@
                 <img src="assets/img/portfolio/exGraph.jpg" class="img-responsive " alt="" />
                                              </a>
             </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <h2>Description:</h2>
-                    <button type="submit" class="btn2 btn-primary btn-lg">SPONSOR</button>
-                    <a href="#portfolioBig3"  data-toggle="modal">
-                <img src="assets/img/portfolio/3.jpg" class="img-responsive " alt="" />
-                                             </a>
-                    <div class="col-md-4 col-sm-4 text-center">
-                        <img class="img-rounded" src="assets/img/team1.png" alt="" />
-                           <h3><strong>Jhon Deo Alex</strong> </h3>
-                       <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
-                            <a href="#" class="btn btn-primary"><i class="fa fa-facebook-square fa-3x"></i></a>
-                     <a href="#" class="btn btn-primary"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                     <a href="#" class="btn btn-primary"><i class="fa fa-google-plus-square fa-3x"></i></a>
-                    
-                    </div> <!--ends here-->
             </div>
                </div>
-                 <div class="row text-center pad-top" ><!-- NOTE TO SELF: MODIFY THIS DESCRIPTION DIV-->
+                 <div class="row text-center pad-top" >
                      
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <a href="#portfolioBig4"  data-toggle="modal">
@@ -114,8 +95,24 @@
                     <a href="#portfolioBig5"  data-toggle="modal">
                 <img src="assets/img/portfolio/exGraph.jpg" class="img-responsive " alt="" />
                                              </a>
+                    
             </div>
+               <div id="descriptionDiv" class="col-md-4 col-sm-4 col-xs-12"> <!-- NOTE TO SELF: MODIFY
+DESCRIPTION DIV-->  <h1></h1>
+                    <a href="sponsor.html" class="btn2 btn-primary btn-xlg">Sponsor</a>
+                    <h1></h1>
+                        <img class="img-rounded" src="assets/img/Lehman.jpg" alt="" />
+                           <h3><strong>Lehman College</strong> </h3>
+                            <p> 
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-facebook-square fa-3x"></i></a>
+                     <a href="#" class="btn btn-primary"><i class="fa fa-google-plus-square fa-3x"></i></a>
+                    
+                    </div> <!--ends here-->     
                </div>
+        
                 <div class="pad-top"></div>
                 <!--PORFOLIO POPUPS -->
                 <div class="modal fade" id="portfolioBig1" tabindex="-1" role="dialog" aria-hidden="true" >
@@ -242,45 +239,6 @@
         </section>
     <!--END PORTFOLIO SECTION-->
     
-    <!--CONTACT SECTION-->
-         <section id="contact">
-               <div class="container">
-                     <div class="row text-center" >
-               <div class="col-md-12">
-                    <h1>CONTACT HERE</h1>
-               </div>
-                     </div>
-           <div class="row text-center pad-top" >
-            <div class="col-md-8 col-md-offset-2">
-                <div class="row ">
-                             <form>
-                            <div class="col-md-12 ">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Name" />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Email address" />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Questions" />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                                                   <button type="submit" class="btn btn-primary btn-lg">SUBMIT REQUEST</button>
-
-                            </div>
-                                 </form>
-                        </div>
-            </div>
-               
-               </div>
-        </div>
-        </section>
-        <!--END CONTACT SECTION-->
         <!--FOOTER SECTION-->
     <div id="footer">
         2014 www.yourdomain.com | All Right Reserved  | Design by <a href="http://www.binarytheme.com/" target="_blank" >www.binarytheme.com</a>
